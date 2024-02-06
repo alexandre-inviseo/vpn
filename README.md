@@ -1,6 +1,6 @@
 ## Contexte
 
-Inviséo fournit un service de monitoring énergétique, avec installation de matériel dans les locaux des clients et récupération des données via un serveur local. L'interface Web de l'application PyScada est accessible sur le port 80.
+Nous avons besoin d'une solution pour mettre facilement plusieurs clients en relation avec notre serveur. Nous avons choisi de mettre en place un VPN pour cela.
 
 ## Besoins
 
@@ -16,10 +16,6 @@ Inviséo fournit un service de monitoring énergétique, avec installation de ma
 - **Redirection de port :** Simple mais nécessite l'ouverture de ports chez le client.
 - **Serveur VPN chez chaque client :** Efficace mais lourd à configurer pour chaque client.
 - **Serveur VPN chez Inviséo :** Permet la communication avec les clients sans ouvrir de port chez eux.
-
-## Solution
-
-Nous avons choisi d'implémenter un serveur VPN chez Inviséo. Cela nous permet d'accéder aux machines des clients et à leurs services sans ouvrir de ports chez eux.
 
 ## Installation
 
