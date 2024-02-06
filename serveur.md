@@ -19,7 +19,7 @@
    ```
 
 4. **Installation de WireGuard :**
-   - Prérequis : être connecté en tant que root (su -), avoir un port ouvert sur le routeur de Inviséo (privilégier le port 51820), avoir curl.
+   - Prérequis : être connecté en tant que root (su -), avoir un port ouvert sur le routeur (privilégier le port 51820), avoir curl.
    ```
    apt-get install curl \
    curl -O https://raw.githubusercontent.com/angristan/wireguard-install/master/wireguard-install.sh \
@@ -43,5 +43,3 @@
    iptables -A FORWARD -i vpn -o vpn -j REJECT \
    ip6tables -A FORWARD -i vpn -o vpn -j REJECT
    ```
-   - Les techniciens de Inviséo doivent pouvoir communiquer avec tous les clients sur le réseau.
-

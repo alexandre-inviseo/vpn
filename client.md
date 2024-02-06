@@ -14,10 +14,10 @@
 2. **Récupération du fichier .conf :**
    - À faire uniquement depuis le réseau local.
    ```
-   scp user@192.168.3.35:/home/user/<client>.conf .
+   scp user@<IP_serveur_VPN>:/home/user/<client>.conf .
    sudo mv <client>.conf /etc/wireguard/
    ```
-   *Warning :* <client> ne doit pas contenir de tirets dans le nom. Ne pas oublier de mettre l'adresse de la Livebox de Gallium : 92.138.199.40.
+   *Warning :* <client> ne doit pas contenir de tirets dans le nom. Ne pas oublier de mettre l'adresse du routeur.
 
 3. **Installation de wg-quick :**
    - Arch :
