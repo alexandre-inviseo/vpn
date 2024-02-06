@@ -25,3 +25,4 @@ Nous avons choisi d'implémenter un serveur VPN chez Inviséo. Cela nous permet 
 
 1. **Serveur VPN :** suivre le guide [serveur.md](serveur.md).
 2. **Client VPN :** suivre le guide [client.md](client.md).
+3. **Routeur :** suivre le guide [routeur.md](routeur.md) (à faire une fois le déploiement terminé si craintes).
